@@ -1,0 +1,206 @@
+@font-face {
+	font-family: 'Helvetica Neue Black';
+	src: url("fonts/HelveticaNeue/HelveticaNeueCyr-Light.otf");
+}
+
+@font-face {
+	font-family: 'Helvetica Neue Thin';
+	src: url("fonts/HelveticaNeue/HelveticaNeueCyr-Thin.otf");
+}
+
+@font-face {
+	font-family: 'Helvetica Neue Roman';
+	src: url("fonts/HelveticaNeue/HelveticaNeueCyr-Roman.otf");
+}
+
+
+body, body * {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	font-family: 'Helvetica Neue Roman';
+}
+
+.top {
+	height: 36px;
+	width: 1215px;
+	direction: rtl;
+	color: #60b5ed;
+	background: rgb(7, 79, 143) url("img/background-3.png");
+}
+
+
+.menu  {
+	display: inline-block;
+	direction: ltr;
+}
+
+.menu * {
+	display: inline-block;
+}
+
+.menu_item {
+	padding: 10px 10px 10px 10px;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.menu_item:last-child {
+	padding-left: 13px;
+	padding-right: 21px;
+	border-right: 1px solid rgb(86, 162, 220);
+}
+
+.menu_item:hover {
+	color: white;
+	background: rgb(78, 171, 218);
+}
+
+.pers-area {
+	display: inline-block;
+	direction: ltr;
+}
+
+.pers-area * {
+	display: inline-block;
+	font-size: 14px;
+	color: white;
+}
+
+.pers-area>p, .pers-area>a {
+	padding-right: 13px;
+	padding-left: 10px;
+}
+
+.pers-area>a {
+	text-decoration: none;
+}
+
+.pers-area img {
+	margin-top: 5px;
+	margin-left: 15px;
+	float: left;
+}
+
+.pers-area .Ola {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 19px;
+	background: url("img/background-2.png");
+}
+
+a:visited {
+	color: white;
+}
+
+/*BODY*/
+
+
+.content {
+	width: 1215px;
+	height: 816px;
+	padding-top: 212px;
+	background: url("img/background.png") no-repeat center top;
+	
+}
+
+.form-background {
+	width: 560px;
+	height: 610px;
+	margin-left: 353px;
+	margin-right: 353px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.63);
+}
+
+.name {
+	padding-top: 19px;
+	padding-bottom: 17px;
+	text-align: center;
+	border-bottom: 1px solid rgb(185, 190, 180);
+}
+
+.name p {
+	font-family: 'Helvetica Neue Black';
+	font-size: 24px;
+}
+
+form {
+	padding-left: 142px;
+	padding-right: 142px;
+	font-family: 'Helvetica Neue Roman';
+	text-align: left;
+	color: rgb(175, 175, 175);
+}
+
+.facebook {
+	width: 278px;
+	height: 35px;
+	margin-top: 38px;
+	margin-bottom: 29px;
+	background: rgba(0, 0, 0, 0);
+}
+
+button.facebook + p {
+	margin-bottom: 19px;
+	background-image: url("img/line-around.png");
+	text-align: center;
+}
+
+input[type="text"], input[type="password"] {
+	width: 258px;
+	height: 32px;
+	margin-top: 9px;
+	margin-bottom: 9px;
+	padding-top: 2px;
+	padding-left: 18px;
+	background: rgb(16, 16, 16);
+	border-bottom: 1px solid rgb(72, 72, 71);
+	color: white;
+}
+
+input::placeholder {
+	font-size: 14px;
+	font-family: 'Helvetica Neue Medium';
+	color: white;
+}
+
+input:focus {
+	background: rgb(27, 82, 136);
+	box-shadow: 1px 1px 9px 4px #2f7bc5;
+}
+
+input[type="checkbox"]:focus {
+	box-shadow: 0px 0px 0px 0px #000;
+}
+
+form p, button {
+	font-size: 14px;
+}
+
+input[type="password"]:last-of-type {
+	margin-top: 5px;
+}
+
+button[type="submit"]:last-child {
+	width: 150px;
+	height: 35px;
+	margin-top: 22px;
+	margin-left: 64px;
+	margin-bottom: 20px;
+	background: linear-gradient(to top, rgb(46, 122, 196),rgb(80, 174,219));
+	color: white;
+}
+
+form+p {
+	font-size: 11px;
+}
+
+input[type="checkbox"] {
+	margin: 12px 8px 0px 0px;
+}
+
+.form-background p {
+	color: white;
+	text-shadow: 0px 0px 1px #FFF;
+}
