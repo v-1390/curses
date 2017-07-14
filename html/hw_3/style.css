@@ -35,7 +35,7 @@ a {
 
 .menu {
 	height: 40px;
-	background: #5c5c5c;
+	background: linear-gradient( to top, rgb(68,67,67) 0%, rgb(94,94,94) 100%);
 	margin-bottom: 40px;
 }
 
