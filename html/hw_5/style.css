@@ -215,5 +215,6 @@ input[type="checkbox"] {
 
 
 p:last-child {
+	margin-left: -17px;
 	text-align: center;
 }
