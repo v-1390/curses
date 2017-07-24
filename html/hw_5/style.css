@@ -13,9 +13,13 @@
 	src: url("fonts/HelveticaNeue/HelveticaNeueCyr-Roman.otf");
 }
 
- .wraper {
- 	width: 1215px;
- 	margin: auto;
+
+html {
+    background: url("img/background.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 body, body * {
@@ -23,11 +27,10 @@ body, body * {
 	margin: 0px;
 	border: none;
 	font-family: 'Helvetica Neue Roman';
+	position: static;
 }
 
 .top {
-	height: 36px;
-	width: 1215px;
 	direction: rtl;
 	color: #60b5ed;
 	background: rgb(7, 79, 143) url("img/background-3.png");
@@ -99,13 +102,21 @@ a:visited {
 
 /*BODY*/
 
-
-.content {
-	position: relative;
-	width: 1215px;
-	height: 1028px;
-	background: url("img/background.png") no-repeat center top;
-	
+form {
+	position: absolute;
+	box-sizing: border-box;
+	width: 560px;
+	height: 610px;
+	top: 50%;
+	left: 50%;
+	margin-top: -240px;
+	margin-left: -280px;
+	background: rgba(0, 0, 0, 0.63);
+	padding-left: 142px;
+	padding-right: 142px;
+	font-family: 'Helvetica Neue Roman';
+	text-align: left;
+	color: rgb(175, 175, 175);
 }
 
 .name {
@@ -121,23 +132,6 @@ a:visited {
 	border-bottom: 1px solid rgb(185, 190, 180);
 	font-family: 'Helvetica Neue Black';
 	font-size: 24px;
-}
-
-form {
-	position: absolute;
-	box-sizing: border-box;
-	width: 560px;
-	height: 610px;
-	top: 50%;
-	left: 50%;
-	margin-top: -305px;
-	margin-left: -280px;
-	background: rgba(0, 0, 0, 0.63);
-	padding-left: 142px;
-	padding-right: 142px;
-	font-family: 'Helvetica Neue Roman';
-	text-align: left;
-	color: rgb(175, 175, 175);
 }
 
 .facebook {
@@ -203,6 +197,7 @@ button[type="submit"]:last-of-type {
 .agree {
 	position: absolute;
 	font-size: 11px;
+	margin-left: -15px;
 }
 
 input[type="checkbox"] {
@@ -215,6 +210,5 @@ input[type="checkbox"] {
 
 
 p:last-child {
-	margin-left: -17px;
 	text-align: center;
 }
