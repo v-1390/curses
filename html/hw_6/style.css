@@ -1,0 +1,87 @@
+body, body * {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.top * {
+	display: inline-block;
+}
+
+a {
+	display: block;
+}
+
+.menu_item {
+	display: inline-block;
+	padding: 0 0 0 0;
+	border-radius: 5px;
+}
+
+.menu_item:hover {
+	padding: ;
+	background: black;
+}
+
+.pers_info {
+	float: right;
+}
+
+.pers_info>p {
+	display: inline-block;
+	color: black;
+}
+
+.pers_info>p.value {
+	display: inline-block;
+	color: blue;
+}
+
+legend {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+.legend_2 {
+	color: blue;
+}
+
+form[action="search.php"], .disc , .tires {
+	display: inline-block;
+}
+
+table {
+	float: left;
+	background: blue;
+}
+
+th {
+	height: ;
+	width: ;
+	padding: ;
+	margin: ;
+}
+
+img.prod_foto {
+	width: ;
+	height: ;
+	border-radius: 5px;
+}
+
+ul>li p {
+	list-style-image: url("img/list_item_img.png");
+}
+
+.left_bar {
+	float: left;
+}
+
+.right_bar {
+	float: right;
+}
+
+.partners {
+	clear: both;
+	background: url(img/partners.png);
+}

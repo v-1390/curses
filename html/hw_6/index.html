@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 6</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+	<div class="top">
+	<div>(044)123-45-67 (044)567-89-10</div>
+	<form action="#" method="POST" name="login">
+		<input type="text" placeholder="Логин">
+		<input type="password" placeholder="Пароль">
+		<input type="submit" value="Войти">
+		<a href="">Регистрация</a>
+		<a href="">Забыли пароль?</a>
+	</form>
+	</div>
+	<img src="img/logo.png" alt="" class="logo">
+	<menu>
+		<div class="menu_item"><a href="#">О КОМПАНИИ</a></div>
+		<div class="menu_item"><a href="#">ОПЛАТА</a></div>
+		<div class="menu_item"><a href="#">ДОСТАВКА</a></div>
+		<div class="menu_item"><a href="#">СТАТЬИ</a></div>
+		<div class="menu_item"><a href="#">КОНТАКТЫ</a></div>
+		<div class="pers_info"><p>На сумму:</p><p class="value">0,0 грн</p></div>
+		<div class="pers_info"><p>Товаров:</p><p class="value">0</p></div>
+	</menu>
+</header>
+	<form action="POST" class="search" name="search_by_auto">
+		<fieldset>
+			<legend>Поиск по автомобилю</legend>
+			<div class="disc">
+			<p class="legend_2">Диски:</p>
+			<p>Марка	
+				<select name="disc_mk">
+					<option value=" "></option>
+					<option value="mk_1">Марка 1</option>
+					<option value="mk_2">Марка 2</option>
+					<option value="mk_3">Марка 3</option>
+					<option value="mk_4">Марка 4</option>
+					<option value="mk_5">Марка 5</option>
+				</select></p>
+			<p>Модель
+				<select name="disc_model">
+					<option value=""></option>
+					<option value="model_1">Модель 1</option>
+					<option value="model_2">Модель 2</option>
+					<option value="model_3">Модель 3</option>
+					<option value="model_4">Модель 4</option>
+					<option value="model_5">Модель 5</option>
+				</select></p>
+			<p>Год
+				<select name="disc_year">
+					<option value=""></option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+				</select></p>
+			<p>Комплектация
+				<select name="disc_compl">
+					<option value=""></option>
+					<option value="compl_1">Комплектация 1</option>
+					<option value="compl_2">Комплектация 2</option>
+					<option value="compl_3">Комплектация 3</option>
+					<option value="compl_4">Комплектация 4</option>
+					<option value="compl_5">Комплектация 5</option>
+				</select></p>
+			</div>
+			<div class="tires">
+			<p class="legend_2">Шины:</p>
+			<p>Марка	
+				<select name="tires_mk">
+					<option value=" "></option>
+					<option value="mk_1">Марка 1</option>
+					<option value="mk_2">Марка 2</option>
+					<option value="mk_3">Марка 3</option>
+					<option value="mk_4">Марка 4</option>
+					<option value="mk_5">Марка 5</option>
+				</select></p>
+			<p>Модель
+				<select name="tires_model">
+					<option value=""></option>
+					<option value="model_1">Модель 1</option>
+					<option value="model_2">Модель 2</option>
+					<option value="model_3">Модель 3</option>
+					<option value="model_4">Модель 4</option>
+					<option value="model_5">Модель 5</option>
+				</select></p>
+			<p>Год
+				<select name="tires_year">
+					<option value=""></option>
+					<option value="2001">2001</option>
+					<option value="2002">2002</option>
+					<option value="2003">2003</option>
+					<option value="2004">2004</option>
+					<option value="2005">2005</option>
+				</select></p>
+			<p>Комплектация
+				<select name="tires_compl">
+					<option value=""></option>
+					<option value="compl_1">Комплектация 1</option>
+					<option value="compl_2">Комплектация 2</option>
+					<option value="compl_3">Комплектация 3</option>
+					<option value="compl_4">Комплектация 4</option>
+					<option value="compl_5">Комплектация 5</option>
+				</select></p>
+			</div>
+		</fieldset>
+	</form>
+	<form action="action.php" name="search_tires">
+		<fieldset>
+			<legend>Поиск шин</legend>
+		</fieldset>
+	</form>
+	<form  action="action.php" name="search_disc">
+		<fieldset>
+			<legend>Поиск дисков</legend>
+		</fieldset>
+	</form>
+	<nav>
+	<div class="left_bar">
+		<p class="directory">КАТАЛОГ ПРОДУКЦИИ:</p>
+		<ul>
+			<li>
+				<p class="bar_item">Шины</p>
+			</li>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a>
+				</li>
+			</ul>
+			<li>
+				<p class="bar_item">Диски</p>
+			</li>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a></li>
+			</ul>
+			<li>
+				<p class="bar_item">Болты</p>
+			</li>
+			<ul>
+				<li><a href="#">Наименование 1</a></li>
+				<li><a href="#">Наименование 2</a></li>
+				<li><a href="#">Наименование 3</a></li>
+				<li><a href="#">Наименование 4</a></li>
+			</ul>
+		</ul>
+	</div>
+	</nav>
+	<main>
+		<table>
+			<tr>
+				<th><a href="#">
+						<p class="name">Товар 1</p>
+						<p class="descr">Описание 1</p>
+						<img class="prod_foto" src="img/prod_foto1.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+				<th><a href="#">
+						<p class="name">Товар 2</p>
+						<p class="descr">Описание 2</p>
+						<img class="prod_foto" src="img/prod_foto2.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+				<th><a href="#">
+						<p class="name">Товар 3</p>
+						<p class="descr">Описание 3</p>
+						<img class="prod_foto" src="img/prod_foto3.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+			</tr>
+			<tr>
+				<th><a href="#">
+						<p class="name">Товар 1</p>
+						<p class="descr">Описание 1</p>
+						<img class="prod_foto" src="img/prod_foto1.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+				<th><a href="#">
+						<p class="name">Товар 2</p>
+						<p class="descr">Описание 2</p>
+						<img class="prod_foto" src="img/prod_foto2.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+				<th><a href="#">
+						<p class="name">Товар 3</p>
+						<p class="descr">Описание 3</p>
+						<img class="prod_foto" src="img/prod_foto3.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+			</tr>
+			<tr>
+				<th><a href="#">
+						<p class="name">Товар 1</p>
+						<p class="descr">Описание 1</p>
+						<img class="prod_foto" src="img/prod_foto1.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+				<th><a href="#">
+						<p class="name">Товар 2</p>
+						<p class="descr">Описание 2</p>
+						<img class="prod_foto" src="img/prod_foto2.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+				<th><a href="#">
+						<p class="name">Товар 3</p>
+						<p class="descr">Описание 3</p>
+						<img class="prod_foto" src="img/prod_foto3.img" alt="">
+						<p>xxx грн.</p>
+					</a></th>
+			</tr>
+		</table>
+	</main>
+	<div class="right_bar">
+	<p class="brends">Бренды</p>
+		<form action="brend">
+			<fieldset>
+				<legend>Шины</legend>
+				<p><input type="checkbox" name="tires" value="brend_1">Бренд 1</p>
+				<p><input type="checkbox" name="tires" value="brend_2">Бренд 2</p>
+				<p><input type="checkbox" name="tires" value="brend_3">Бренд 3</p>
+			</fieldset>
+			<fieldset>
+				<legend>Диски</legend>
+				<p><input type="checkbox" name="disc" value="brend_1">Бренд 1</p>
+				<p><input type="checkbox" name="disc" value="brend_2">Бренд 2</p>
+				<p><input type="checkbox" name="disc" value="brend_3">Бренд 3</p>
+			</fieldset>
+			<button type="submit">Выбрать</button>
+		</form>
+	</div>
+	<div class="partners">Партнеры</div>
+<footer>
+	<div class="footer_item"><a href="#">О КОМПАНИИ</a></div>
+	<div class="footer_item"><a href="#">ОПЛАТА</a></div>
+	<div class="footer_item"><a href="#">ДОСТАВКА</a></div>
+	<div class="footer_item"><a href="#">СТАТЬИ</a></div>
+	<div class="footer_item"><a href="#">КОНТАКТЫ</a></div>
+	<p class="design">Создание сайта © Global Vision</p>
+</footer>
+</body>
+</html>
