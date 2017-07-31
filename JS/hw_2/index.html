@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS homework 2</title>
+</head>
+<body>
+	<form oninput="result.value = get_user_age(User_Berth.value)">
+    <p>В каком году вы родились?
+    <input type="text" name="User_Berth"></p>
+    <p><output name="result"> </output></p>
+  	</form>
+	
+	<form oninput="result.value = get_large(par1.value, par2.value)">
+		<p>Нахождение большего из 2 чисел</p>
+		<p><input type="text" name="par1"></p>
+		<p><input type="text" name="par2"></p>
+    	<p><output name="result"> </output></p>
+	</form>
+	<form oninput="result.value = get_entrance(apartment.value)">
+		<p>Введите номер квартиры от 1 до 80, чтоб узнать, в каком она подъезде</p>
+		<input type="text" name="apartment"></p>
+    	<p><output name="result"> </output></p>
+	</form>
+	<form>
+		<p>Пройдите авторизацию</p>
+		<p><input type="text" name="login"></p>
+		<p><input type="password" name="pass">
+		<input onclick="result.value = autorisation(login.value, pass.value)">
+		</button></p>
+    	<p><output name="result"> </output></p>
+	</form>
+	<form oninput="result.value = get_large_from_3(par1.value, par2.value, par3.value,)">
+		<p>Большее из трьох:</p>
+		<p><input type="text" name="par1"></p>
+		<p><input type="text" name="par2"></p>
+		<p><input type="text" name="par3"></p>
+    	<p><output name="result"> </output></p>
+	</form>
+	<button onclick="from_0_to_101()" type="submit"><p>Вывести парные числа в диапозоне от 1 до 101</p></button>
+	<p id="paired"></p>
+	<button onclick="from_200_to_0()" type="submit"><p>От 200 до 0</p></button>
+	<p id="200-0"></p>
+	<form>
+		<input type="button" onclick="result.value = sum()" value="Кликните, чтоб узнать сумму чисел от 1 до 100" readonly>
+		<output name="result"></output>
+	</form>
+	<form>
+		<p>Возвести в степень:</p>
+		<p>Число:<input type="text" name="num"></p>
+		<p>Степень:<input type="text" name="degree"></p>
+		<input type="button" onclick="result.value = y_n(num.value, degree.value)" value="Возвести в степень" readonly>
+		<output name="result"></output>
+	</form>
+	<p>Таблица умнажения на 7:</p>
+	<button onclick="multiplication_7()" type="submit">Кликните, чтобы увидеть</button>
+	<p id="multipli"></p>
+	<form action="">
+		<input type="button" onclick="result.value = multiplicate()" value="Нажмите, чтоб увидеть произведение чисел от 1 до 50" readonly>
+		<output name="result"></output>
+	</form>
+	<input type="button" value="Спецсимволы &amp;#1000-2000" onclick="special_characters()">
+	<p id="spec_char"></p>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
