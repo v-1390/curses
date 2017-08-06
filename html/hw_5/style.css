@@ -206,6 +206,14 @@ input[type="checkbox"] {
 
 .form-background p {
 	color: white;
+<<<<<<< HEAD
+=======
+}
+
+
+p:last-child {
+	text-align: center;
+>>>>>>> 980859b15a4f3009c0f269d6f1bd71e8844e8b55
 }
 
 
