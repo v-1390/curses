@@ -46,6 +46,7 @@ function edit_arr_2(act) {
 		var value = document.getElementById("string_2").value;
 		matrix_arr[row][col] = value;
 	}
+	
 	if (act == "pop") {
 		matrix_arr.pop();
 	}
