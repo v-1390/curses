@@ -9,6 +9,7 @@ a {
 }
 
 .wraper {
+
  	width: 1060px;
  	margin: auto;
 }
@@ -150,4 +151,8 @@ p {
 .cop {
 	float: right;
 	margin: 10px 25px 10px 0px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 980859b15a4f3009c0f269d6f1bd71e8844e8b55

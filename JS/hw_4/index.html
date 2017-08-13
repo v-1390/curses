@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS homework 4</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus odio, molestias ex. Nisi, reiciendis, repudiandae tempora soluta perspiciatis voluptatum earum laboriosam rerum nulla debitis quia ex atque, ea expedita porro! ipsum dolor sit amet, consectetur adipisicing elit. Labore quidem dolore enim eos eligendi quos, dolores deserunt repellendus aspernatur ipsa magnam beatae magni laborum voluptates obcaecati, nostrum, amet fugiat. Est.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ipsam quidem itaque, nesciunt sapiente, molestias ex doloremque? Quos vel esse voluptates provident recusandae. Ad sit voluptatem officia sapiente ipsum eius. ipsum dolor sit amet, consectetur adipisicing elit. Cum voluptatem ad neque nostrum iure, officia at iusto quia enim, id minus soluta consequatur nam labore! Eligendi modi impedit, hic reprehenderit.</p>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta corporis provident, dolorem aspernatur aperiam consectetur mollitia laudantium dolores fugiat molestiae quo, nisi consequuntur necessitatibus natus cupiditate dolorum, sunt perspiciatis quis! ipsum dolor sit amet, consectetur adipisicing elit. Nemo ipsam illum, sint sunt iste distinctio ex molestiae rem nesciunt placeat architecto itaque iusto quo impedit! Laborum maxime, praesentium. Corporis, dicta.</p>
+	<img src="img/image.png" alt="">
+	<img src="img/image.png" alt="">
+	<img src="img/image.png" alt="">
+	<div>
+		<button onclick="edit_page_style('p')">Сменить background всех p</button>
+		<button onclick="edit_page_style('img')">Добавить тень ко всем изображениям на страничке</button>
+		<button onclick="counter()">Добавить номер всем елементам p</button>
+		<div>		
+			<button onclick="cliks_counter()">Нажать</button>
+			<button onclick="cliks_counter()">Нажать</button>
+		</div>
+	</div>
+	<div>
+		<div>Нажатий: <div id="cliks"></div></div>
+		<form oninput="result.value = Math.pow(x.value, exp.value)">
+			<p><input type="text" name="x"></p>
+			<p><input type="text" name="exp"></p>
+    		<p><output name="result"> </output></p>
+		</form>
+		<form>
+			<input type="text" name="par">
+			<input onclick="edit_tag_style(par.value)" type="button">
+		</form>
+		<form>
+			<p>Введите возраст</p>
+			<input type="text" name="age">
+			<input type="button" onclick="result.value = access(age.value)" value="Войти">
+			<p><output name="result"></output></p>
+		</form>
+		<form action="">
+			<input type="text" name="num">
+			<input type="button" onclick="result.value = num_edit(num.value)" value="Ввести">
+			<p><output name="result"></output></p>
+		</form>
+		<form oninput="result.value = random_game(user_answer.value)">
+		<p>Введите число от 0 до 10</p>
+			<div id="attempts"></div>
+			<input type="number" name="user_answer" min="0" max="9">
+			<output name="result"></output>
+		</form>
+	</div>
+	<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>
