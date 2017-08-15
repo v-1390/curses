@@ -108,10 +108,10 @@ function random_game(user_answer) {
 	}
 	if (user_answer_no <= 3) {
 		if (user_answer < integer) {
-			result = "Меньше";
+			result = "Введенное вами число меньше";
 		}
 		if (user_answer > integer) {
-			result = "Больше";
+			result = "Введенное вами число больше";
 		}
 		if (user_answer == integer) {
 			result = "Вы выиграли";
