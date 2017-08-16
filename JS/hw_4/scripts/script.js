@@ -106,7 +106,7 @@ function random_game(user_answer) {
 		result = "";
 		user_answer_no--;
 	}
-	if (user_answer_no <= 3) {
+	if (user_answer_no < 3) {
 		if (user_answer < integer) {
 			result = "Введенное вами число меньше";
 		}
