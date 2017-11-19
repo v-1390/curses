@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS homework 9</title>
+	<script src="some-files.zzz.com.ua/hw_9/scripts/jquery.js"></script>
+</head>
+<body>
+	<form method="POST" id="a1.php" action="javascript:void(null);" onsubmit="send( 'a1.php' )">
+	<p>Введите два числа:</p>
+		<input type="number" name="num1">
+		<input type="number" name="num2">
+		<button onclick="send( 'a1.php' )">Посчитать</button>
+	</form>
+	<div></div>
+	<form method="POST" id="a2.php" action="javascript:void(null);" onsubmit="send( 'a2.php' )">
+	<p>Введите ваш год рождения:</p>
+		<input type="number" name="year">
+		<button onclick="send( 'a2.php' )">Посчитать возраст</button>
+	</form>
+	<div></div>
+	<form method="POST" id="a3.php" action="javascript:void(null);" onsubmit="send( 'a3.php' )">
+		<legend>Подсчет идеального веса:</legend>
+		<p>Ваш рост <input name="height" type="range" min="100" max="220"></p>
+		<p><input type="radio" value="man" name="sex"> Мужчина
+		<input type="radio" value="fameil" name="sex"> Женщина</p>
+		<button>Расчитать</button>
+	</form>
+	<div></div>
+	<form method="POST" id="mail.php" action="javascript:void(null);" onsubmit="send( 'mail.php' )">
+		<legend>Подсчет идеального веса:</legend>
+		<input name="fio" type="text">
+		<input name="email" type="mail">
+		<input name="phone" type="text">
+		<button>Расчитать</button>
+	</form>
+	<div></div>
+	<!-- JSON -->
+	
+	<script src="scripts/script.js"></script>
+</body>
+</html>

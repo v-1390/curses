@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS homework 5</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<input type="text" id="user_input">
+	<button onclick="get_input_length()">Нажмите, чтоб посчитать количество символов</button>
+	<div>Количество символов: <output name="user_string_length"></output></div>
+	<div class="img">
+		<button onclick="insert_imeges()">Нажмите, чтоб вставить картинки </button>
+	</div>
+	<input type="text" id="url"><button onclick="url_edit()">Форматировать</button>
+	<div>Вывод домена 1-го и 2-го уровня:
+		<output id="url_output"></output>
+	</div>
+	<form action="">
+		<input type="text" id="name" placeholder="Имя и фамилия">
+		<input type="password" id="pass" placeholder="Пароль">
+		<input type="text" id="mail" placeholder="Почтовый адрес">
+	</form>
+	<button onclick="form_verif()">Регистрация</button>
+	<input type="text" maxlength="1" id="simbol">
+	<button onclick="simbol_code()">Вывести код символа</button>
+	<div id="simbol_code"></div>
+	<script src="scripts/script.js"></script>
+</body>
+</html>

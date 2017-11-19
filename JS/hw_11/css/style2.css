@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: GreenYellow;
+}
+
+.top-menu {
+	background: blue;
+}
+
+.top-menu a {
+	display: inline-block;
+	height: 100%;
+}
+
+.top-menu a:hover {
+	background: SkyBlue;
+}
+
+.article {
+	position: absolute;
+	left: 50%;
+	width: 1150px;
+	height: 1100px;
+	margin-left: -575px;
+	padding: 10px;
+	background: Green;
+}
+
+h1, h2 {
+	font-style: italic;
+	color: DarkBlue;
+}
+
+img {
+	border-radius: 5px;
+}
+
+img:hover {
+	box-shadow: 1px 1px 9px 4px blue;
+}
+
+.small {
+	width: 250px;
+	height: 150px;
+}

@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: LightSkyBlue;
+}
+
+.top-menu {
+	background: blue;
+}
+
+.top-menu a {
+	display: inline-block;
+	height: 100%;
+}
+
+.top-menu a:hover {
+	background: SkyBlue;
+}
+
+.article {
+	position: absolute;
+	left: 50%;
+	width: 1100px;
+	height: 1100px;
+	margin-left: -550px;
+	padding: 10px;
+	background: SteelBlue;
+}
+
+img {
+	position: relative;
+	left: 50%;
+	margin-left: -25%;
+	border-radius: 25px;
+}
+
+img:hover {
+	box-shadow: 1px 1px 9px 4px black;
+}
+
+.small {
+	width: 250px;
+	height: 150px;
+	margin-left: -125px;
+}
